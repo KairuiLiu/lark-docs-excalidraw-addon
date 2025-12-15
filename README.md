@@ -6,9 +6,6 @@
 <img src="/static/doodlez.png" alt="Screenshot" style="max-width:800px; border:1px solid #eee; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-top:16px;"/>
 </div>
 
-> **关于上架**: 为全员上架飞书文档插件需要你找到你上级的上级审批, 并出具安全评估报告, 甚至 "视情况加签至CEO-2". (是的, Chrome 插件商店 = Google 审核, App Store = Apple 审核, 飞书插件 = 你老板审核. 简直就是降本增效的典范).  
-> 因此, 这个插件注定只能在 GitHub 上流浪. 不过好在代码是开源的, 你想部署就部署, 想改就改, 不需要请任何老板审批 😉
-
 ## ✨ 特性
 
 - 🎨 **完整的绘图功能** - 集成 Excalidraw 的所有绘图工具
@@ -26,7 +23,7 @@
 
 1. 前往 [飞书开放平台](https://open.larkoffice.cn/) 创建一个新的应用
 2. 在应用管理中选择 - 添加应用能力 - 云文档小组件
-3. 配置应用权限 (这一步不需要审批, 放心)
+3. 配置应用权限  
     1. 查看新版文档 `docx:document:readonly`
     2. 编辑新版文档 `docx:document:write_only`
 4. 获取应用的 `appID` 和插件的 `BlockTypeID` 填写到 `app.json` 中
